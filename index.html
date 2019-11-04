@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href = "css/css/bootstrap.css" rel="stylesheet"type=text/css">
-    <link href = "css/css/styles.css" rel="stylesheet"type=text/css">    
+    <link href = "css/bootstrap.min.css" rel="stylesheet"type=text/css">
+    <!-- <link href = "css/styles.css" rel="stylesheet"type=text/css">     -->
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <section id="home">
    <div class="container">
-       <div class="row">
+       <div class="row home">
           <div id="1">
-              <img id="im1" src="logo/logo.png">
+              <img id="im1" src="image/logo/logo.png">
               <h1>WELCOME</h1>
               <h1>TO DELANI STUDIO</h1>
               <p>Amazing</p>people are making amazing designs in a fun environmrnt.</p>
-              <img id="1m2" src="logo/mouse_click.png">
+              <img id="1m2" src="image/logo/mouse_click.png">
           </div>
+        </section> 
+        <section id="about-us">
           <div id="2">
               <h2>ABOUT US></h2>
               <p>When you work with us,you are part of a team of committed collaborators.<All aspects pf our software development process are intergrated,interactive and agile./p>
@@ -29,6 +33,8 @@
           <div id="3">
               <br>
               <br>
+            </section>
+              <section id="services">
               <h2>SERVICES</h2>
               <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product.</p>
               <p>The outcome of this scoping session is proposal or high-level statement of work.</p>
@@ -37,11 +43,13 @@
               <br>
               <br>
           </div>
+        </section>
+        <section id="what we do">
           <div id="wedo">
               <h2>WHAT WE DO</h2>
               <div id="design">
                   <div class="design-showing">
-                      <span class="clickable1"> <img id="left" src="services_icons/design_icon.png" alt=jnh"></span>
+                      <span class="clickable1"> <img id="left" src="image/services_icons/design_icon.png" alt=jnh"></span>
           </div>
           <div class="design-hidden">
               <span class="clickable1"><p><h3>DESIGN</h3>
@@ -57,7 +65,7 @@
           </div>
           </div>
           <div id="development-showing">
-              <span class="clickable2"><img id="middle" src="services_icons/dev_icon.png"alt=""></span>
+              <span class="clickable2"><img id="middle" src="image/services_icons/dev_icon.png"alt=""></span>
           <div class="development-hidden">
               <span class="clickable2"><p id="pm"><h3>DEVELOPMENT</h3>
             All engineers are fluent in the latest enterprise,mobile <br>
@@ -71,7 +79,7 @@
        </div>
        <div id="product">
            <div id="product-showing">
-               <span class="clickable3"><img id="right" src="services_icons/product_icon.png" alt=""</span>
+               <span class="clickable3"><img id="right" src="image/services_icons/product_icon.png" alt=""</span>
            </div>
        </div>
        <div class="product-hidden">
@@ -86,37 +94,41 @@
        </div>
    </div>
    <br>
+</section>
+<section id="portfolio">
    <div>
        <h2>PORTFOLIO</h2>
        <div class="row"
        <div class="col-md-3">
-           <img src="portfolio/work1.jpg" alt="work1"
+           <img src="image/portfolio/work1.jpg" alt="work1"
        </div>
        <div class="col-md3">
-           <img src="portfolio/work2.jpg" alt="work2">
+           <img src="image/portfolio/work2.jpg" alt="work2">
        </div>
            <div> class="col-md-3">
            </div><div class="col-md-3">
-                <img src="portfolio/work3.jpg" alt="work4"
+                <img src="image/portfolio/work3.jpg" alt="work4"
             </div>
             <div class="col-md-3">
-                    <img src="portfolio/work4.jpg" alt="work4"
+                    <img src="image/portfolio/work4.jpg" alt="work4"
                 </div>
                 <div class="col-md-3">
-                        <img src="portfolio/work5.jpg" alt="work5"
+                        <img src="image/portfolio/work5.jpg" alt="work5"
                     </div>
                     <div class="col-md-3">
-                            <img src="portfolio/work6.jpg" alt="work6"
+                            <img src="image/portfolio/work6.jpg" alt="work6"
                         </div>
                         <div class="col-md-3">
-                                <img src="portfolio/work7.jpg" alt="work7"
+                                <img src="image/portfolio/work7.jpg" alt="work7"
                             </div>
                             <div class="col-md-3">
-                                    <img src="portfolio/work8.jpg" alt="work8"
+                                    <img src="image/portfolio/work8.jpg" alt="work8"
                                 </div>
     
 
    </div>
+</section>
+<section id="contact">
    <div id="4">
        <h2>CONTACT US</h2>
           <input id="name" type="text" placeholder="Name"
@@ -125,7 +137,9 @@
           <input id="email" type="email" placeholder="email"
 
          <br>
-       <textarea id="textarea" name="message" cols="90" rows="8" placeholder="your message here..."></textarea>
+         <br>
+         <br>
+       <textarea id="textarea" name="message" cols="90" rows="8" placeholder="your message here"></textarea>
        <br>
        <button class="button" type="submit">send</button>
        <em><p id="answer"></p></em>
@@ -133,19 +147,25 @@
 
        
    </div>
+</section>
+<br>
    <div> <id="social">
-       <img src="social_icons/twitter.png" alt="twitter"
-       <img src="social_icons/dribble.png" alt="dribble">
-       <img src="social_icons/facebook.png" alt="facebook">
-       <img src="social_icons/g_plus.png" alt="google">
-       <img src="social_icons/skype.png" alt="skype">
-       <img src="social_icons/stumble_upon.png" alt="stumble_upon">
-       <img src="social_icons/you_tube.png" alt="you_tube">
-       <img src="social_icons/flickr.png" alt="flickr">
+       <img src="image/social_icons/twitter.png" alt="twitter"
+       <img src="image/social_icons/dribble.png" alt="dribble">
+       <img src="image/social_icons/facebook.png" alt="facebook">
+       <img src="image/social_icons/g_plus.png" alt="google">
+       <img src="image/social_icons/skype.png" alt="skype">
+       <img src="image/social_icons/stumble_upon.png" alt="stumble_upon">
+       <img src="image/social_icons/you_tube.png" alt="you_tube">
+       <img src="image/social_icons/flickr.png" alt="flickr">
    </div>
+</section>
+
+<section id="footer">
    <footer><p>DELANI STUDIO</p>
    <P>2019</P>
 </footer>
+</section>
     
     <script src = "js/jquery-3.4.1.min.js"></script>
     <script src = "js/scripts.js"></script>
