@@ -1,3 +1,96 @@
 body {
     background-color: black;
+}body {
+    margin: 100px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
 }
+
+#home {
+    background-image: url(../delani-studio/image/backgrounds/h_img.jpg);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+    font-size: 150%;
+    text-align: center;
+}
+#intr {
+    text-align: center;
+    
+}
+
+#im2 {
+    position: relative;
+    margin-left: 69%;
+    margin-top: 16% !important;
+    margin-left: 62% !important;
+}
+
+#im1 {
+    position: relative;
+    margin-top: 125px;
+    margin-left: 59%;
+}
+
+.intr {
+    position: relative;
+    top: 70px;
+}
+
+.text {
+    position: relative;
+    top: 75px;
+}
+
+#services {
+    background-image: url(../delani-studio/image/backgrounds/s_image.jpg);
+    text-align: center;
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 60vh;
+    color: white;
+}
+
+#contact {
+    background-image: url(../delani-studio/image/backgrounds/c_image.jpg);
+    text-align: center;
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88vh;
+}
+
+#about-us {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+#social-media {
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+
+.col-md-3 {
+    padding: 16px;
+}
+
+.col-md-3:hover {
+    opacity: 0.5;
+}
+
+hdwuuod jixajsj #social-media {
+    text-align: center;
+}
+
+ design-hidden {
+    float: left;                                        
