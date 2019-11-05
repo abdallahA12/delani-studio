@@ -1,15 +1,19 @@
 $(document).ready(function() {
-            $("#icon").click(function() {
-                        $(".icon-showing").toggle(slow),
-                            $(".icon-hidden").toggle(slow)
-                    }
-                    $(document).ready(function() {
-                            $("#icon").click(function() {
-                                        $(".icon2-showing").toggle(slow),
-                                            $(".icon2-hidden").toggle(slow)
-                                    }
-                                    $(document).ready(function() {
-                                            $("#icon").click(function() {
-                                                $(".icon3-showing").toggle(slow),
-                                                    $(".icon3-hidden").toggle(slow)
-                                            });
+$(".clickable1").click(function() {
+$(".design-showing").toggle(),
+$(".design-hidden").toggle()
+});
+});
+
+$(document).ready(function() {
+$(".clickable2").click(function() {
+$(".development-showing").toggle(),
+$(".development-hidden").toggle()
+});
+});
+$(document).ready(function() {
+$(".clickable3").click(function() {
+$(".product-showing").toggle(),
+$(".product-hidden").toggle()
+});
+});
