@@ -2,7 +2,7 @@
 <html>
   <title>Delani</title>
   <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
@@ -11,13 +11,16 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container"> -->
       <div class="home">
-        <img id="im1" src="image/logo/logo.png">
-        <h1>WELCOME</h1>
-        <h1>TO DELANI STUDIO</h1>
-        <p>Amazing people are making amazing designs in a fun environment.</p>
-        <img id="im2" src="image/logo/mouse_click.png">
+        <div class="landing">
+            <img id="im1" src="image/logo/logo.png">
+            <h1>WELCOME</h1>
+            <h1>TO DELANI STUDIO</h1>
+            <p>Amazing people are making amazing designs in a fun environment.</p>
+            <img id="im2" src="image/logo/mouse_click.png">
+        </div>
+        
       </div>
     <div id="2">
       <h2>ABOUT US</h2>
@@ -122,13 +125,18 @@
         </div>
     </div>
     <div id="4">
+      <div class="message">
+        <div class="feedback">
+          Thank you for contacting us. We appreciate your genuine feedback.
+        </div>
+      </div>
       <h2>CONTACT US</h2>
         <input id="name" type="text" placeholder="Name..." >
         <input id="email" type="email" placeholder="Email..." >
         <br>
         <textarea id="textarea" name="message" cols="90" rows="8" placeholder="Your message here..."></textarea>
         <br></br>
-        <button class="button" type="submit">Send</button>
+        <button class="button" type="submit" id="button">Send</button>
         
         <em><p id="answer"></p></em>
         <br>
